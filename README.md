@@ -7,11 +7,11 @@ A comprehensive financial management application developed in Java that allows u
 ### User Mode
 
 - **Sign Up / Sign In**: New users can create an account, and existing users can log in.
-- **Transaction Management**: Users can record transactions as income or expense.
-- **Transaction Types**: Choose between income and expense, enter the amount, and add the transaction.
+- **Transaction Types**: Users can record transactions as income or expense.
+- **Add New Transaction**: Choose between income and expense, enter the amount, and add the transaction.
 - **Settings**: 
   - Change password.
-  - Change the theme (including a dark mode).
+  - Change the theme.
 - **Export Transactions**: Save transactions to a .csv file.
 - **Visual Representation**: View income and expense diagrams using JFreeChart.
 
@@ -42,3 +42,18 @@ A comprehensive financial management application developed in Java that allows u
 | transaction_date | datetime   | Date and time of transaction   |
 | is_successful    | tinyint(1) | Status of transaction (1 for successful, 0 otherwise) |
 
+## Images from application
+### Start Window
+![Start](images/start_window.png) 
+### Sign up
+![Sign up](images/sign_up.png) 
+### Sign ip
+![Sign ip](images/sign_in.png)
+### User Window
+![User Window](images/user_window.png)
+### Filter
+![Filter](images/filter.png)
+### Settings
+![Settings](images/settings.png)
+### Diagram
+![Diagram](images/diagram.png)
